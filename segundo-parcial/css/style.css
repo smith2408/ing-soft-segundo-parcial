@@ -1,0 +1,41 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
+.header{
+    min-height: 800px;
+    margin-bottom: 120px;
+}
+.header-table{
+    width: 630px;
+    height: 800px;
+    background: url(../img/Group\ 24.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    z-index: -1;
+}
+.header-container{
+    height: 540px;
+    display: flex;
+    align-items: center;
+}
+.nav-link.active{
+    color: #DAA520 !important;
+}
+.woodies-text-center{
+    display: flex;
+    align-items: center;
+}
+.woodies-furniture{
+    min-height: 415px;
+}
+.woodies-furniture h3{
+    color: #3e3f43
+    font size 2.5rem; 
+}   
+.woodies-forniture p{
+    font-size: 1.5rem;
+    font-weight:600; 
+}
